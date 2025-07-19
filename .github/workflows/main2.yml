@@ -5,7 +5,7 @@ on:
   push:
     branches: [ "master" ]
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '6,21,36,51 * * * *'
 
 jobs:
   run-matrix:
